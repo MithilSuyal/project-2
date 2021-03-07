@@ -1,0 +1,186 @@
+@charset "UTF-8";
+body{
+	padding:0;
+	margin:0;
+}
+img{
+	position: absolute;
+}
+audio{
+	z-index: 100;
+	position: absolute;
+}
+.Car{
+	
+	left: 1122px ;
+	top: 747px ;
+	opacity: 0;
+}
+
+.Time{
+opacity:0;
+background-color: rebeccapurple;
+  border-radius: 10px;
+  animation-name: rotate;
+  animation-duration: 3s;
+	
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+	opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+	opacity: 0.5;
+  }
+}
+.N2nd{
+	
+	left: 133px;
+	top: 299px;
+	opacity: 0;
+}
+.I2nd{
+	left: 431px;
+	top: 305px;
+	opacity: 0;
+}
+.Narutokid{
+	left: 491px;
+	top: 80px; 
+	
+}
+
+ .Narutokid:hover{
+  transform:scaleX(-1);
+}
+.NarutoSage{
+	left: 446px;
+	top: 60px;
+	z-index: 1;
+}
+.Rasen{
+	left:496px;
+	top: 35px;
+	z-index: 0;
+	opacity:0;
+
+  
+}
+.Rasen:hover{
+	
+  animation-name: rotate;
+  animation-duration: 3s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+	opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+	opacity: 1;
+  }
+}
+ 
+.NarutoBig { 
+left:446px;
+top: 30px;
+} 
+
+.Tails{
+	opacity: 0;
+}
+
+.Tails:hover{
+	animation-name: tailed;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes tailed{
+  0% { transform: translate(1px, 1px) rotate(0deg); opacity:.5; }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); opacity:.55; }
+  20% { transform: translate(-3px, 0px) rotate(1deg); opacity:.6; }
+  30% { transform: translate(3px, 2px) rotate(0deg); opacity:.7; }
+  40% { transform: translate(1px, -1px) rotate(1deg); opacity:.8; }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); opacity:.9; }
+  60% { transform: translate(-3px, 1px) rotate(0deg); opacity:1; }
+  70% { transform: translate(3px, 1px) rotate(-1deg); opacity:1; }
+  80% { transform: translate(-1px, -1px) rotate(1deg); opacity:1; }
+  90% { transform: translate(1px, 2px) rotate(0deg); opacity:1; }
+  100% { transform: translate(1px, -2px) rotate(-1deg); opacity:1; }
+	}
+.ItachiChild{
+	left: 428px;
+	top:70px;
+}
+.ItachiChild:hover{
+	transform:scaleX(-1);
+}
+
+.ItachiBig{
+	left:509px;
+	top: -2px;
+}
+.Headband{
+	left:569px;
+	top:39px;
+	opacity: 0;
+}
+.Headband:hover{
+	animation-name: appear;
+	animation-duration: 3.5s;
+}
+@keyframes appear{
+	0%{
+		transform: right;
+		opacity: 0.5;
+	}
+	100%{
+		transform: right;
+		opacity: 1;
+	}
+}
+.Itachibad{
+	left:444px;
+	top:57px;
+	width:391px;
+	height: 664px;
+}
+.Special{
+	left:322px;
+	top:0px;
+	opacity: 0;
+}
+.Special:hover{
+	animation-name: band;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes band{
+  0% { transform: translate(1px, 1px) rotate(0deg); opacity:1; }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); opacity:1; }
+  20% { transform: translate(-3px, 0px) rotate(1deg); opacity:1; }
+  30% { transform: translate(3px, 2px) rotate(0deg); opacity:1; }
+  40% { transform: translate(1px, -1px) rotate(1deg); opacity:1; }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); opacity:1; }
+  60% { transform: translate(-3px, 1px) rotate(0deg); opacity:.1; }
+  70% { transform: translate(3px, 1px) rotate(-1deg); opacity:1; }
+  80% { transform: translate(-1px, -1px) rotate(1deg); opacity:1; }
+  90% { transform: translate(1px, 2px) rotate(0deg); opacity:1; }
+  100% { transform: translate(1px, -2px) rotate(-1deg); opacity:1; }
+	}
+.Iname{
+	width: 700px;
+	height: 70px;
+	left: 250px;
+}
+.Nname
+{
+	top:500px;
+}
+.NBname{
+	top:600px;
+}
